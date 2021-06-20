@@ -14,7 +14,7 @@ script:
 deploy: 
   provider: surge
   skip_cleanup: true
-  domain: 
+  domain: puny-chicken.surge.sh
   project: ./build/
 
 on: 
